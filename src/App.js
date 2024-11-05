@@ -40,6 +40,17 @@ function App() {
         })}
       </ul>
       <h3 className='text-xl mt-3'>Łącznie jest ich {liczbpierwsza.length}</h3>
+      <div>
+        <p className='text-blue-100'></p>
+        <p className='text-blue-200'></p>
+        <p className='text-blue-300'></p>
+        <p className='text-blue-400'></p>
+        <p className='text-blue-500'></p>
+        <p className='text-blue-600'></p>
+        <p className='text-blue-700'></p>
+        <p className='text-blue-800'></p>
+        <p className='text-blue-900'></p>
+      </div> //to służy jedynie by doładować klasy Tailwind
     </div>
   );
 }
