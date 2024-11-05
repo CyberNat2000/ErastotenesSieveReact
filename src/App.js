@@ -28,7 +28,7 @@ function App() {
       <ul className="mt-2">
         {liczbpierwsza.map((pierwsza, index) => {
           const dlugosc = liczbpierwsza.length;
-          const colorIntensity = (Math.round((800 / dlugosc) * (index+1) / 100) * 100)+100;
+          const colorIntensity = (Math.round((800 / dlugosc) * (index + 1) / 100) * 100)+100;
           return (
             <li
               key={pierwsza}
