@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold mb-4 text-blue-600">Sito Erastotenesa</h1>
-      <input type='number' step={3} defaultValue={20} value={liczba} onChange={e => Setliczba(e.target.value)}/>
+      <input type='number' step={3} defaultValue={20} value={liczba} onChange={e => Setliczba(e.target.value)} min={0}/>
       <button onClick={wypisz} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">Wypisz liczby pierwsze</button>
       <h2 className="text-2xl mt-4">Liczby pierwsze do {liczba}:</h2>
       <ul className="mt-2">
